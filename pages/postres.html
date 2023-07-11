@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Paramount+ forma parte de la historia del cine desde hace más de un siglo ofreciendo clásicos de todos los tiempos, con los que cualquier usuario se puede relacionar.Un finde en el sillón con tu familia y amigos mirando los clásicos de ayer y de hoy es el plan perfecto">
+    <link rel="shortcut icon" href="../img/sabrlogo (1).png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/stylepostre.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.typekit.net/fbr2npi.css">
+    <title>Sabrina Pastelería</title>
+</head>
+<body>
+    <header>
+		<div id="menu-bar">
+	   <ul>
+		<nav>
+		 <img src="../img/sabrlogo (1) (1).png" alt="">
+		  <a href="../index.html">Inicio</a>
+		  <a href="">Presupuesto</a>
+		  <div class="dropdown-bt">
+			<button class="btn dropdown-toggle border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+			  Productos
+			</button>
+			<ul class="dropdown-menu">
+			  <li><a class="dropdown-item" href="../pages/tortas.html">Tortas</a></li>
+			  <li><a class="dropdown-item" href="../pages/postres.html">Postres</a></li>
+			  <li><a class="dropdown-item" href="#">Combos</a></li>
+			</ul>
+		  </div>
+		  <a href="../pages/lista.html">Mi Lista</a>
+		  <a href="../pages/contacto.html">Contacto</a>
+		  <a class="nav-link disabled"></a>
+		  <form class="d-flex" role="search">
+			<input class="form-control " type="search" placeholder="Buscar" aria-label="Buscar">
+			<select id="selectorden" class="form-select form-select-sm" aria-label=".form-select-sm example">
+				<option selected>Ordenar por:</option>
+				<option value="1">Mayor a menor precio</option>
+				<option value="2">Menor a mayor precio</option>
+				<option value="3">Alfabéticamente</option>
+				<option value="4">Sabor</option>
+			  </select>
+			<button class="btn-search border-0 " type="submit"><i class="bi-bold bi-search"></i></button>
+		  </form>
+		  <a href="../pages/carrito.html" class="btn btn-dark ml-2"><i class="bi bi-cart4"></i></a>
+		</nav>
+	  </ul>
+	  
+	</div>
+	</header>
+    <div class="container">
+        <div id="postres" class="row"></div>
+    </div>
+	<div class="container mt-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title text-center">¿No encontraste lo que buscabas? Ayudanos a mejorar <i class="bi bi-emoji-smile"></i></h5>
+                <form id="formulario-sugerencia" action="#" method="post">
+                    <div class="form-group">
+                        <label for="inputnombre">Nombre</label>
+                        <input type="text" class="form-control" id="inputnombre" placeholder="Ingrese su nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="inputsugerencia">Sugerencia</label>
+                        <textarea class="form-control" id="inputsugerencia" rows="3" placeholder="Ingrese su sugerencia"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+	<div class="floating-button">
+		<button id="light-mode" class="btn-floating"><i class="bi bi-sun"></i></button>
+		<button id="dark-mode" class="btn-floating2"><i class="bi bi-moon"></i></button>
+	</div>
+	
+<script src="../js/pasteleria.js"></script>
+</body>
+<footer>
+	<div class="bottom">
+        <ul>
+            <nav>
+                <a href="https://www.instagram.com/sabrina.pasteleria/" target="_blank"><i class="bi bi-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100063664686057" target="_blank"><i class="bi bi-facebook"></i></a>
+                <a href="https://api.whatsapp.com/send?phone=%2B543329615586&data=AWAPRaeRRzcKsBFAG3PV1HessMNoJurMouBSbeDPt707-qzuD9XXi-SWUtmy8piR-io0v1U18hqTLBWEYjSd4PnPYU42UrBFDQJrByu_0FzAJ6MihEaCWWjTgrwIW5W2by5UsepRhWrcGDjPHL85R4LWEderbi1s88Y19wfp7WQj2GD25a61t_fzmSRF63GcYKJl_3FLPj_PWFjq8SkPxLb3XTWO8wKxoH8OA71SyZ-sjzwI5bQsU0JziPqM82HdJsoALrkybXXQT3P3jaxsdbGCYuS-8vzYrtPMdLPjR8thXsIKdlQ&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3yM1ixXhVLVLsbc8kJuzu2MBvNXFUIjZfz8i7vFhtwwhQnUMF0Mk02zyU" target="_blank"><i class="bi bi-whatsapp"></i></a>
+                <a href="">Ayuda</a>
+                <a href="">Preguntas frecuentes</a>
+            </nav>
+        </ul>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>     
+</html>
